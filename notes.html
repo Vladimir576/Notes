@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="notes.css">
+    <script src="notes.js"></script>
+    <title>Note</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="slogan">todos</div>
+        <div class="note">
+            <ul class="note__list">
+                <li class="note__item">
+                    <div class="input-block">
+                        <button class="chevron-button">
+                            <span class="chevron"></span>
+                        </button>
+                        <input placeholder="Whats needs to be done?" type="text" class="note__input">
+                    </div>
+                </li>
+                <li class="note__item note__item--active">
+                    <div class="note__content">
+                        <div class="note__information">
+                            <input type="checkbox" id="state" name="note-state">
+                            <label  for="state"></label>
+                            <div class="note__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa at
+                                distinctio provident blanditiis, odit velit. Debitis delectus voluptates aliquam esse.
+                                Id, quibusdam at laborum temporibus eaque nihil fuga natus libero!</div>
+                        </div>
+                        <button class="note__close-button">
+                            <img class="note__close-icon" src="close.png" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="note__item note__item--active">
+                    <div class="note__content">
+                        <div class="note__information">
+                            <input type="checkbox" id="state" name="note-state">
+                            <label for="state"></label>
+                            <div class="note__text">Lorem ipsum</div>
+                        </div>
+                        <button class="note__close-button">
+                            <img class="note__close-icon" src="close.png" alt="">
+                        </button>
+                    </div>
+                </li>
+                <li class="note__item note__item--active">
+                    <div class="note__footer">
+                        <div class="note__quanity">2 items left</div>
+                        <div class="note__status">
+                            <button class="note__status-element note__status-element--active">All</button>
+                            <button class="note__status-element">Active</button>
+                            <button class="note__status-element">Completed</button>
+                        </div>
+                        <div class="none__clear">Clear Completed</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
